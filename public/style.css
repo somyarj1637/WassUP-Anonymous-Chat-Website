@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hubballi', 'cursive';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('img1.jpg');
+    font-family: 'Roboto', sans-serif;
+}
+
+section.chat-section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.brand {
+    padding: 20px;
+    background: #e8faa6;
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    margin-left: 300px;
+}
+.brand h1{
+    font-size: 1.2rem;
+    margin-left: 300px;
+}
+#h1temp2{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+    align-items: center;
+}
+#h1temp1{
+    color: green;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 40px;
+}
+
+.message-area {
+    height: 420px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    background-color: black;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    color: black;
+    background: #8f8f8f;
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.incoming {
+    background: #8F8BE8;
+    color: #fff;
+}
+
+.outgoing {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
